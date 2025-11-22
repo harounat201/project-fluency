@@ -65,10 +65,10 @@ struct MenuView: View {
             .animation(.easeInOut(duration: 4.5), value: vignetteIntensity)
             
             // 🧩 Menu buttons
-            VStack(spacing: 30) {
-                menuButton(title: "The Neurology of Speech Impediments", index: 0)
-                menuButton(title: "Choral Speech Therapeutic Simulator", index: 1)
-            }
+//            VStack(spacing: 30) {
+//                menuButton(title: "The Neurology of Speech Impediments", index: 0)
+//                menuButton(title: "Choral Speech Therapeutic Simulator", index: 1)
+//            }
         }
         .onAppear {
             animateBeams = true
